@@ -1,0 +1,7 @@
+.nav-wrapper{
+    background-color: #6f4037;
+}
+/* css for changing silder dot colour */
+.slider .indicators .indicator-item.active {
+    background-color: #6f4037;
+}

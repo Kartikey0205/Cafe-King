@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee King</title>
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+    <!-- ICON -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- MATERIALIZE CSS STARTED CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- our CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+
+    <!-- NAVBAR -->
+    <section class="fnavbar">
+
+        <nav class="nav-fixed">
+            <div class="nav-wrapper">
+                <a href="#" class="brand-logo">Cafe King</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="#" onclick="toggleModal()">Home</a></li>
+                    <li><a href="#" onclick="toggleModal()">About</a></li>
+                    <li><a href="#" onclick="toggleModal()">Order Now</a></li>
+                    <li><a href="#" onclick="toggleModal()">Surprise!</a></li>
+                    <li><a href="#" onclick="toggleModal()">Contact Us</a></li>
+
+                </ul>
+            </div>
+
+        </nav>
+        <!-- Side Navbar -->
+        <ul class="sidenav" id="mobile-demo">
+            <li><a href="#" onclick="toggleModal()">Home</a></li>
+            <li><a href="#" onclick="toggleModal()">About</a></li>
+            <li><a href="#" onclick="toggleModal()">Order Now</a></li>
+            <li><a href="#" onclick="toggleModal()">Surprise!</a></li>
+            <li><a href="#" onclick="toggleModal()">Contact Us</a></li>
+        </ul>
+    </section>
+
+    <!-- SLIDER -->
+    <section class="fslider">
+        <div class="slider">
+            <ul class="slides">
+                <li>
+                    <img src="images/c5.jfif" alt="Image One">
+                    <div class="caption center-align white-text">
+                        <h3>Cafe King -Quality Cafe</h3>
+                        <h5 class="light text-lighten-3">
+                            We serve one of the Best Coffee around!!
+
+                        </h5>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/c6.jfif" alt="Image Two">
+                    <div class="caption center-align white-text">
+                        <h3>Cafe King -Finnest Coffee</h3>
+                        <h5 class="light text-lighten-3">
+                            Let's meet together for coffee!!
+
+                        </h5>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/c7.jfif" alt="Image Three">
+                    <div class="caption center-align white-text">
+                        <h3>Cafe King - Ground Cafe</h3>
+                        <h5 class="light text-lighten-3">
+                            The Bestest Coffee you ever met!!
+
+                        </h5>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!-- MODAL -->
+    <!-- <a href="#" onclick="toggleModal()">Click Me</a> -->
+    <section class="infomodal">
+        <!-- ID modal3 is for our CSS and class modal is for Materialize CSS -->
+        <div id="modal3" class="modal">
+            <!-- class modal-content is from M CSS -->
+            <div class="modal-content">
+                <!-- ID info-modal-heading is from materialize CSS  -->
+                <h4 id="info-modal-heading">Link Disabled</h4>
+                <!-- ID info-modal-content is from materialize CSS -->
+                <p id="info-modal-content">Sorry ! All links are disabled as of now</p>
+
+            </div>
+            <!-- Closing our modal -->
+            <div class="modal-footer">
+                <!-- <a class="modal-close waves-effect waves-light btn">Close</a> -->
+                <a href="#" class="modal-close waves-effect btn-flat">Close</a>
+            </div>
+        </div>
+    </section>
+</body>
+<!-- JQuery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous"></script>
+<!-- MATERIALIZE JS STARTED CDN -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+<!-- our JS -->
+<script src="js/app.js"></script>
+
+</html>
