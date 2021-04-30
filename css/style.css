@@ -5,3 +5,29 @@
 .slider .indicators .indicator-item.active {
     background-color: #6f4037;
 }
+
+.move_1{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#grid_img1{
+    object-fit: contain;
+    height: 200px;
+    width: auto;
+}
+
+.card_row1{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.card_col1{
+    padding: 50px 5px;
+}
+.c{
+    height: 43vh;
+}
+.parallax-container{
+    min-height: 300px;
+    height: auto;
+}
