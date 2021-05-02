@@ -6,6 +6,11 @@ $(document).ready(function(){
     $('.slider').slider({
         full_width: true
     });
+    $('.myreviews').carousel({
+        numVisible: 7,
+        shift: 5,
+        padding: 55,
+    });
 });
 
 function toggleModal() {

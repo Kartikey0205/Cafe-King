@@ -1,3 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo1{
+    margin: 0px 12px;
+}
 .nav-wrapper{
     background-color: #6f4037;
 }
@@ -30,4 +37,15 @@
 .parallax-container{
     min-height: 300px;
     height: auto;
+}
+
+.icon-coffee{
+    color: #6f4037;
+}
+.footer-one{
+    background: #6f4037;
+}
+.footer-two{
+    background: #462822;
+    margin-bottom: 0;
 }
